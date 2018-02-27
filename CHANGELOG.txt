@@ -18,7 +18,9 @@ CHANGELOG
 ### Added
 - This CHANGELOG file
 ### CHANGED
-- 
+- 10 modules have been enabled: HTTP Basic Authentication, BigPipe, Custom Block, 
+  Field Layout, HAL, Responsive Image, RESTful Web Services, Serialization, Sylog, 
+  Layout Discovery.
 ### DEPRECATED
 - 
 ### REMOVED
