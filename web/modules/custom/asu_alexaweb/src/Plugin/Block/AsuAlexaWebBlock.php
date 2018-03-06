@@ -2,7 +2,7 @@
 
 namespace Drupal\asu_alexaweb\Plugin\Block;
 
-use Drupal\Core\Block\BlockBase
+use Drupal\Core\Block\BlockBase;
 
 /**
  * Provides an 'ASU AlexaWeb' iframe Block.
