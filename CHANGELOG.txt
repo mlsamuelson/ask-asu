@@ -14,6 +14,13 @@ CHANGELOG
 - A lot at this point, as project is under active development. See ALEXADEV-1895
   for the project epic.
 
+## 0.2.0 - 2018-03-6
+### Added
+- Lots of config changes
+- Added themes
+- Added asu_alexaweb module
+
+
 ## 0.1.0 - 2018-02-23
 ### Added
 - This CHANGELOG file
