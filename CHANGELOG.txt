@@ -16,9 +16,9 @@ CHANGELOG
 
 ## 0.2.0 - 2018-03-6
 ### Added
-- Lots of config changes
-- Added themes
-- Added asu_alexaweb module
+- Lots of config changes.
+- Added themes.
+- Added asu_alexaweb module.
 
 
 ## 0.1.0 - 2018-02-23
