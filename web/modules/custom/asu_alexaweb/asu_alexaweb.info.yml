@@ -1,0 +1,6 @@
+name: ASU AlexaWeb Drupal Module
+description: Deploy ASU's AlexaWeb UI in a block iFrame.
+package: ASU 
+type: module
+version: 1.0
+core: 8.x
