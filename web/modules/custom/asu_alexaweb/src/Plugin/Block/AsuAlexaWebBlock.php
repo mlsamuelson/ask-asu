@@ -20,7 +20,8 @@ class AsuAlexaWebBlock extends BlockBase {
    */
   public function build() {
     return [
-      '#markup' => $this->t('ASU AlexaWeb Block!'),
+      '#asu_alexaweb_markup' => $this->t('asu alexaweb markup'),
+      '#asu_alexaweb_uri' => $this->t('asu alexaweb uri'),
       '#theme' => 'asu_alexaweb_block',
     ];
   }
