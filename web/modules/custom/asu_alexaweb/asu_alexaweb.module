@@ -6,7 +6,7 @@
 function asu_alexaweb_theme() {
   return [ 
     'asu_alexaweb_block' => [ 
-      'variables' => array('asu_alexaweb_markup' => NULL, 'asu_alexaweb_uri' => NULL),
+      'variables' => array('asu_alexaweb_markup' => '123', 'asu_alexaweb_uri' => 'xyz'),
       'template' => 'block--asu-alexaweb',
     ],
   ];
