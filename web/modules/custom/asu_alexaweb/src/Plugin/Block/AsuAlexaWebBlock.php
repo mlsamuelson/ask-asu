@@ -19,9 +19,10 @@ class AsuAlexaWebBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    return array(
+    return [
       '#markup' => $this->t('ASU AlexaWeb Block!'),
-    );
+      '#theme' => 'asu_alexaweb_block',
+    ];
   }
 
 }

@@ -4,10 +4,10 @@
  * Implements hook_theme().
  */
 function asu_alexaweb_theme() {
-  return array(
-   'asu_alexaweb_block' => array(
-            'variables' => array('title' => NULL, 'link' => NULL),
-            'template' => 'block--asu-alexaweb',
-        ),
-  );
+  return [ 
+    'asu_alexaweb_block' => [ 
+      'variables' => array('title' => NULL, 'link' => NULL),
+      'template' => 'block--asu-alexaweb',
+    ],
+  ];
 }
