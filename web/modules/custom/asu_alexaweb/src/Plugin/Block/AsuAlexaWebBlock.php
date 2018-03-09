@@ -20,7 +20,7 @@ class AsuAlexaWebBlock extends BlockBase {
    */
   public function build() {
     return [
-      '#asu_alexaweb_uri' => 'https://mls-alexaweb.herokuapp.com/',
+      '#asu_alexaweb_uri' => 'https://mls-alexaweb.herokuapp.com',
       '#theme' => 'asu_alexaweb_block',
     ];
   }
