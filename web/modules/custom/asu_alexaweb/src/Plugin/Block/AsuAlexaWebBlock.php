@@ -55,8 +55,8 @@ class AsuAlexaWebBlock extends BlockBase implements BlockPluginInterface {
     $form['asu_alexaweb_app_uri'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('AlexaWeb App URL'),
-      '#description' => $this->t('Provide the full URL to the deployment of the AlexaWeb app (without trailing slash). App should be deployed according to @alexaweb or the customized fork created for use with the ASU AlexaWeb module at @alexafork.', 
-        ['@alexaweb' => UrlHelper::stripDangerousProtocols(Url::fromUri($alexaweb_project_url)), '@alexafork' => UrlHelper::stripDangerousProtocols(Url::fromUri($alexaweb_fork_url))]),
+      '#description' => $this->t('Provide the full URL to the deployment of the AlexaWeb app (without trailing slash). App should be deployed according to <a href=":alexaweb">@alexaweb</a> or the customized fork created for use with the ASU AlexaWeb module at <a href=":alexafork">@alexafork</a>.', 
+        [':alexaweb' => $alexaweb_project_url, '@alexaweb' => $alexaweb_project_url, ':alexafork' => $alexaweb_fork_url, '@alexafork' => $alexaweb_fork_url]),
       '#default_value' => isset($config['asu_alexaweb_app_uri']) ? $config['asu_alexaweb_app_uri'] : '',
     );
 
