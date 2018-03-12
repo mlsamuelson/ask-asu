@@ -1,6 +1,14 @@
 # ASU AlexaWeb Module
-Deploy the ASU AlexaWeb UI via iFrame in a block.
+ASU AlexaWeb module allows you to deploy the ASU AlexaWeb UI via iFrame in
+a block.
 
-Install the module. Use the admin UI to assign the block to the desired region.
+
+INSTALL
+-------
+1. Install the AlexaWeb standalone application per the instructions provided.
+   Use either the original project at https://github.com/sammachin/alexaweb
+   Or the fork optimized for this module https://github.com/mlsamuelson/alexaweb
+2. Install the ASU AlexaWeb module. Use the admin UI to assign the block to the 
+   desired region.
 
 // TODO do markdown? commit README stub for ASU D8 modules?
