@@ -4,7 +4,7 @@ namespace Drupal\asu_alexaweb\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Url;
-use Drupal\Component\Utility;
+use Drupal\Component\Utility\UrlHelper;
 // For form.
 use Drupal\Core\Block\BlockPluginInterface;
 use Drupal\Core\Form\FormStateInterface;
