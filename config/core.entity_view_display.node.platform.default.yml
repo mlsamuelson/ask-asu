@@ -1,0 +1,32 @@
+uuid: a0252eab-1065-4cf1-adca-096910b1032d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.platform.body
+    - node.type.platform
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.platform.default
+targetEntityType: node
+bundle: platform
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

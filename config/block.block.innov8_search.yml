@@ -1,0 +1,22 @@
+uuid: cd0e5650-fbc8-4390-9480-2bb67d5f5351
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - innov8
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: innov8_search
+theme: innov8
+region: navbar_right
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

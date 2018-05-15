@@ -1,0 +1,25 @@
+uuid: 197499b3-963f-4e2e-ba6e-6e93763d6e11
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - innov8
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: innov8_branding
+theme: innov8
+region: navbar_left
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

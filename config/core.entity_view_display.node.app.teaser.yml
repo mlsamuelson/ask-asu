@@ -1,0 +1,38 @@
+uuid: 1b5e11a8-b77e-4fd2-82ee-ec13812b6662
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.app.body
+    - node.type.app
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.app.teaser
+targetEntityType: node
+bundle: app
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_app_icon_image: true
+  field_app_images: true
+  field_app_links: true
+  field_app_platform: true

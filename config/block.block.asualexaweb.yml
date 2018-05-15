@@ -1,0 +1,22 @@
+uuid: c464e301-8c36-493d-bea7-36ce975d8260
+langcode: en
+status: true
+dependencies:
+  module:
+    - asu_alexaweb
+  theme:
+    - innov8
+id: asualexaweb
+theme: innov8
+region: navbar_right
+weight: 0
+provider: null
+plugin: asu_alexaweb_block
+settings:
+  id: asu_alexaweb_block
+  label: 'ASU AlexaWeb'
+  provider: asu_alexaweb
+  label_display: visible
+  asu_alexaweb_app_url: a
+  asu_alexaweb_app_uri: 'https://mls-alexaweb.herokuapp.com'
+visibility: {  }

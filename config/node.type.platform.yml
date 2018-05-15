@@ -1,0 +1,17 @@
+uuid: 0b53e910-28ad-4360-a97d-d931e747636f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Platform
+type: platform
+description: 'Voice skill and app platforms.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

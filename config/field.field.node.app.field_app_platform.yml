@@ -1,0 +1,29 @@
+uuid: ceb677ca-3900-46da-8755-783c9021776f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_platform
+    - node.type.app
+    - node.type.platform
+id: node.app.field_app_platform
+field_name: field_app_platform
+entity_type: node
+bundle: app
+label: Platform
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      platform: platform
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

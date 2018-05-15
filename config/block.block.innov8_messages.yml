@@ -1,0 +1,22 @@
+uuid: 8ddb3ebb-6b49-491a-92b3-fd4fc0ff5e54
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - innov8
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: innov8_messages
+theme: innov8
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

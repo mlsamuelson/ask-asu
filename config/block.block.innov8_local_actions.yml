@@ -1,0 +1,20 @@
+uuid: c66ad03a-9bb4-4d89-aedc-ed53b3972e9a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - innov8
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: innov8_local_actions
+theme: innov8
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

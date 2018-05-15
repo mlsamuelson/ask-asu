@@ -1,0 +1,20 @@
+uuid: f16a97fc-1973-4839-b662-8dfc07e0c97a
+langcode: en
+status: true
+dependencies:
+  module:
+    - asu_brand
+  theme:
+    - bartik
+id: asubrandfooter
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: asu_brand_footer
+settings:
+  id: asu_brand_footer
+  label: 'ASU Brand: Footer'
+  provider: asu_brand
+  label_display: '0'
+visibility: {  }

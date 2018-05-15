@@ -1,0 +1,22 @@
+uuid: 2b8a1c2e-6542-4fd8-aac8-5f5f856cbc09
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - innov8
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: innov8_help
+theme: innov8
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

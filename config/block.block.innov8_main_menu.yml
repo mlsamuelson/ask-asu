@@ -1,0 +1,26 @@
+uuid: 9396a111-2d6d-4b7a-b1ab-f8dcf425dec6
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - innov8
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: innov8_main_menu
+theme: innov8
+region: navbar_branding
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

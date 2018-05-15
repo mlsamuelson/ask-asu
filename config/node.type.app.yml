@@ -1,0 +1,17 @@
+uuid: 7be047d9-404e-45b7-a7c2-89dc210b5ca7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: App
+type: app
+description: 'Content type serving as a first-class entity defining voice skills, apps, actions, etc. across voice platforms.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
