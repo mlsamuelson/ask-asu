@@ -1,26 +1,26 @@
 server:
   version: '2.0'
-  hostname: ''
+  hostname: weblogin.asu.edu
   port: 443
-  path: /
+  path: /cas
   verify: 0
   cert: ''
 gateway:
-  check_frequency: -2
+  check_frequency: -1
   paths:
     id: request_path
-    pages: ''
+    pages: "<front>\r\n"
     negate: false
 forced_login:
-  enabled: false
+  enabled: true
   paths:
     id: request_path
-    pages: ''
+    pages: "/admin/*\r\n/user\r\n/node/add\r\nnode/*/edit"
     negate: false
 logout:
   logout_destination: ''
-  enable_single_logout: false
-  cas_logout: false
+  enable_single_logout: true
+  cas_logout: true
   single_logout_session_lifetime: 25
 proxy:
   initialize: false
@@ -28,11 +28,12 @@ proxy:
   proxy_chains: ''
 user_accounts:
   prevent_normal_login: true
-  auto_register: false
+  auto_register: true
   email_assignment_strategy: 0
-  email_hostname: ''
+  email_hostname: asu.edu
   email_attribute: ''
-  auto_assigned_roles: {  }
+  auto_assigned_roles:
+    - cas_user
   restrict_password_management: false
   restrict_email_management: false
 advanced:

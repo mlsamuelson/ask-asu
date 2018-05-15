@@ -1,0 +1,20 @@
+uuid: bcf816e7-3149-4299-b585-f081d71d2d39
+langcode: en
+status: true
+dependencies:
+  module:
+    - asu_brand
+  theme:
+    - innov8
+id: innov8_asubrandfooter
+theme: innov8
+region: footer
+weight: -6
+provider: null
+plugin: asu_brand_footer
+settings:
+  id: asu_brand_footer
+  label: 'ASU Brand: Footer'
+  provider: asu_brand
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: e479353e-cd81-4b2a-92ce-db60b31a43ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - asu_brand
+  theme:
+    - radix
+id: radix_asubrandheader
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: asu_brand_header
+settings:
+  id: asu_brand_header
+  label: 'ASU Brand: Header'
+  provider: asu_brand
+  label_display: '0'
+  menu_injection_flag: 1
+  menu_name: main
+  asu_gtm: 1
+  custom_gtm: 0
+  custom_gtm_id: ''
+visibility: {  }

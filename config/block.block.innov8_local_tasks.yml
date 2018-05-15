@@ -1,0 +1,22 @@
+uuid: 60ae88ce-f7fc-4bf6-a106-598d27bd6c69
+langcode: en
+status: true
+dependencies:
+  theme:
+    - innov8
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: innov8_local_tasks
+theme: innov8
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: d6f7ebfd-c2ce-48b5-87be-3127f1fdb798
+langcode: en
+status: true
+dependencies: {  }
+id: cas_user
+label: 'CAS user'
+weight: 3
+is_admin: null
+permissions: {  }

@@ -1,0 +1,22 @@
+uuid: c7639a02-470c-43da-9942-a67da33e0465
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - innov8
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: innov8_content
+theme: innov8
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

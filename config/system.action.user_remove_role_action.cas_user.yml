@@ -1,0 +1,14 @@
+uuid: 22acb560-e821-4b5e-a4db-560974c3500b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cas_user
+  module:
+    - user
+id: user_remove_role_action.cas_user
+label: 'Remove the CAS user role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cas_user

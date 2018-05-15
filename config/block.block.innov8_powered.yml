@@ -1,0 +1,22 @@
+uuid: 1983db86-d98a-48dc-a836-7af1d62ab7f5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - innov8
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: innov8_powered
+theme: innov8
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

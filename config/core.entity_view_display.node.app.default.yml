@@ -1,0 +1,91 @@
+uuid: cbbba584-ced2-410c-bb0c-6625d1e9af80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.app.body
+    - field.field.node.app.field_app_icon_image
+    - field.field.node.app.field_app_images
+    - field.field.node.app.field_app_links
+    - field.field.node.app.field_app_platform
+    - field.field.node.app.field_app_video
+    - node.type.app
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - link
+    - text
+    - user
+    - video_embed_field
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.app.default
+targetEntityType: node
+bundle: app
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_app_icon_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_app_images:
+    weight: 4
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_app_links:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_app_platform:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_app_video:
+    weight: 3
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

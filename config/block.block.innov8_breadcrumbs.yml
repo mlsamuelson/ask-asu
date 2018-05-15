@@ -1,0 +1,22 @@
+uuid: 871e7384-b3f5-4aea-a8be-2271edaadee9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - innov8
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: innov8_breadcrumbs
+theme: innov8
+region: content
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
