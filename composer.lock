@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2cea32a29e2a0c3b08b1954b0eaec19",
-    "content-hash": "f7d973bcec2c71b1284086618cb37f8c",
+    "hash": "6accf1c26549bbfbf373ae9677d454a2",
+    "content-hash": "dea3ed2acf34a89b25fbe6f51e216091",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2573,73 +2573,6 @@
             "homepage": "https://www.drupal.org/project/simple_block",
             "support": {
                 "source": "http://cgit.drupalcode.org/simple_block"
-            }
-        },
-        {
-            "name": "drupal/structured_data",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/structured_data",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/structured_data-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "1e39b21ec2c75b30ae6ed6b4fd85d1951a63da5a"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1524215880",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "izabellak",
-                    "homepage": "https://www.drupal.org/user/2927605"
-                },
-                {
-                    "name": "jenlampton",
-                    "homepage": "https://www.drupal.org/user/85586"
-                },
-                {
-                    "name": "k_zoltan",
-                    "homepage": "https://www.drupal.org/user/834136"
-                },
-                {
-                    "name": "pek_timi",
-                    "homepage": "https://www.drupal.org/user/1564034"
-                },
-                {
-                    "name": "r_honey",
-                    "homepage": "https://www.drupal.org/user/473356"
-                },
-                {
-                    "name": "vszilard",
-                    "homepage": "https://www.drupal.org/user/3526208"
-                }
-            ],
-            "description": "Annotate your content to generate Rich Search Snippets.",
-            "homepage": "https://www.drupal.org/project/structured_data",
-            "support": {
-                "source": "http://cgit.drupalcode.org/structured_data"
             }
         },
         {
