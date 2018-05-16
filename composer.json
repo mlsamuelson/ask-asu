@@ -24,6 +24,7 @@
     "drupal/pathauto": "^1.0",
     "drupal/schema_metatag": "^1.2",
     "drupal/simple_block": "^1.0@beta",
+    "drupal/structured_data": "^1.0",
     "drupal/video_embed_field": "^1.5",
     "drush/drush": "^9",
     "rvtraveller/qs-composer-installer": "^1.1",
